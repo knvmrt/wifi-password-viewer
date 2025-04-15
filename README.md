@@ -9,7 +9,7 @@ This is a simple Python application that shows saved Wi-Fi profiles and their pa
 ✅ Exported as `.exe` for easy use
 
 ## Screenshot
-<img src="./assets/img/app-ui.png" alt="appscreen" width="400" height="230" title="App Screen"/>
+<img src="./assets/img/app-ui.png" alt="appscreen" width="500" height="auto" title="App Screen"/>
 
 ## ⚙️ How to Use
 1. Run the app (`wifi_password_viewer.py`) using Python **or** run the compiled `.exe` file.
@@ -34,7 +34,7 @@ To compile this app as an executable:
 ```bash
 pip install pyinstaller
 
-pyinstaller --onefile --windowed wifi_password_viewer.py
+pyinstaller --onefile --windowed --icon=./assets/img/icon.ico wifi_password_viewer.py
 ```
 
 The .exe file will be created in the dist/ folder.
