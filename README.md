@@ -3,13 +3,14 @@
 This is a simple Python application that shows saved Wi-Fi profiles and their passwords on a Windows system using a clean graphical interface built with Tkinter.
 
 ## 🔧 Features
-✅ Lists all saved Wi-Fi profiles (SSIDs)
-✅ Displays passwords if available
-✅ Organized in a table-like layout
-✅ Exported as `.exe` for easy use
+
+✅ Lists all saved Wi-Fi profiles (SSIDs).   
+✅ Displays passwords if available.   
+✅ Organized in a table-like layout.  
+✅ Exported as `.exe` for easy use.   
 
 ## Screenshot
-<img src="./assets/img/app-ui.png" alt="appscreen" width="500" height="auto" title="App Screen"/>
+<img src="./assets/img/app-ui.png" alt="appscreen" width="700" height="auto" title="App Screen"/>
 
 ## ⚙️ How to Use
 1. Run the app (`wifi_password_viewer.py`) using Python **or** run the compiled `.exe` file.
